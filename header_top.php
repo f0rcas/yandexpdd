@@ -9,7 +9,7 @@ print '<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a class="navbar-brand" href="http://sibdata.ru">YandexPdd</a>
+<a class="navbar-brand" href="http://test.ru">YandexPdd</a>
 </div>
 
 <div class="collapse navbar-collapse" id="b-menu-1">
