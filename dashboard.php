@@ -32,7 +32,7 @@
 		// установка URL и других необходимых параметров
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-		curl_setopt($ch, CURLOPT_URL, "https://pddimp.yandex.ru/api2/admin/domain/registration_status?domain=dinal.biz");
+		curl_setopt($ch, CURLOPT_URL, "https://pddimp.yandex.ru/api2/admin/domain/registration_status?domain=test.biz");
 		// загрузка страницы и выдача её браузеру
 		$response = curl_exec($ch);
 		// завершение сеанса и освобождение ресурсов
