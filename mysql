@@ -1,0 +1,8 @@
+CREATE TABLE `members` (
+  `id` char(23) NOT NULL,
+  `username` varchar(65) NOT NULL DEFAULT '',
+  `password` varchar(65) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username_UNIQUE` (`username`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
